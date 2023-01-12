@@ -17,13 +17,13 @@ banner_text = """
     88       88  88  88  ""     `Y8  
     88       88  88  88  ,adPPPPP88  
     88       88  88  88  88,    ,88  
-    88       88  88  88  `"8bbdP"Y8  Generator (V1.1)                 
+    88       88  88  88  `"8bbdP"Y8  Generator (V1.2)                 
 """
 
 
 def clear_scr():
-    if sys.platform == "win32":
-        system("clrscr")
+    if sys.platform == "win64":
+        system("cls")
     elif sys.platform == "darwin":
         system("clear")
     elif sys.platform == "linux":
@@ -37,7 +37,7 @@ def display(consl, filenm) -> None:
     consl.print(markdown)
 
 
-def display_generate_db_menu(consl) -> None:
+def display_generate_db_menu(consl  ) -> None:
     """A simple function that displays main menu"""
 
     console = consl

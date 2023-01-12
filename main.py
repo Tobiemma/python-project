@@ -1,9 +1,8 @@
 import random
 from time import sleep
-from ui.ui import banner_text
 from rich.console import Console
 from scripts.scripts import get_file
-from ui.ui import clear_scr, display, display_del_db, display_generate_db_menu, exit_program
+from ui.ui import banner_text, clear_scr, display, display_del_db, display_generate_db_menu, exit_program
 
 
 console = Console()

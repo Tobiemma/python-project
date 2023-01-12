@@ -1,4 +1,4 @@
-# Generate a Klassur Orientiert Datenbank
+# Generate a Database
 
 ✨Fill out the following information to generate a KOD✨
 

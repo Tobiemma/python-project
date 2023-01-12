@@ -2,6 +2,6 @@
 
 ✨Welcome to tila generator✨
 
-1. Generate a Klassur Orientiert Datenbank
-2. Delete a Generated Datenbank
+1. Generate a Database
+2. Delete a generated Database
 3. Exit

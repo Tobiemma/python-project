@@ -89,7 +89,7 @@ def generate_data(dbnm, num) -> None:
             tmp_person.country_name = "USA"
             tmp_person.country_id = country_usa_id
             tmp_person.relationship = random.choice(
-                ["Sigle", "Married", "Divorced"])
+                ["Single", "Married", "Divorced"])
             tmp_person.street_address = fake.street_address()
             tmp_person.plz = fake.postalcode_in_state()
             tmp_person.city = fake.city()
@@ -288,7 +288,7 @@ def get_file(filenm) -> str:
         return path.parent.absolute().__str__() + "/ui/" + filenm
     else:
         path = Path(os.path.realpath(os.path.dirname(__file__)))
-        return path.parent.absolute().__str__() + "\\" + filenm
+        return path.parent.absolute().__str__() + "\\ui\\" + filenm
 
 
 def create_db(dbnm):
